@@ -1,4 +1,4 @@
-Water Intake Reminder — Computer Vision Project
+''Water Intake Reminder'' Computer Vision Project
 
 A hydration reminder that doesn't take "later" for an answer. Every 30 minutes it takes over your screen, and only closes once your webcam sees you holding up a bottle or glass with water in it.
 
@@ -14,4 +14,3 @@ How it works
 A background timer waits, then launches a fullscreen popup.
 YOLO11n scans the webcam feed for bottle, cup, or wine glass.
 A second check looks at the lower part of the detected box for the edge/texture pattern a liquid surface creates — distinguishing empty from filled.
-Once water is confirmed continuously for CONFIRM_SECONDS_NEEDED, the reminder closes.
